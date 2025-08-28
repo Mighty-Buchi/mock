@@ -1,8 +1,8 @@
 import React from 'react'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import Login from './components/Login/Login'
-import DetailsPage from './components/DetailsPage/DetailsPage'
-import MainPage from './components/MainPage/MainPage'
+import Login from './Pages/Login/Login'
+import DetailsPage from './Pages/DetailsPage/DetailsPage'
+import MainPage from './Pages/MainPage/MainPage'
 import { ToastContainer } from 'react-toastify'
 
 

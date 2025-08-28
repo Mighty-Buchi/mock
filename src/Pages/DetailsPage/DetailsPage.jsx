@@ -19,11 +19,12 @@ useEffect(()=>{
     <div className='parent'>
       <div className="head">
         <h1>User details</h1>
-       {userData && <div>
+       {userData && <div className='pcon'>
             <p><strong>ID:   </strong>{userData.id}</p>
             <p><strong>FIRSTNAME:   </strong>{userData.firstName}</p>
             <p><strong>LASTNAME:   </strong>{userData.lastName}</p>
             <p><strong>AGE:   </strong>{userData.age}</p>
+            <p><strong>DOB:   </strong>{userData.birthDate}</p>
         </div>}
         <Link className='btn-main' to='/main'>BACK</Link>
       </div>

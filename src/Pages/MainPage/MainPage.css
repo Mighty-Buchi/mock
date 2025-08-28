@@ -9,6 +9,7 @@
 }
 .main-head{
     display: flex;
+    justify-content: space-between;
     
 }
 .main-head button{
