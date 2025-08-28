@@ -1,0 +1,24 @@
+.parent{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    border: 1px solid #009879;
+    border-radius: 1em;
+}
+.head h1{
+    margin-bottom: 1em;
+}
+.head p{
+    margin-bottom: .5em;
+}
+.btn-main{
+    text-decoration: none;
+}

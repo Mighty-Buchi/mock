@@ -1,0 +1,96 @@
+.main-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 1em;
+    width: 80vw;
+    color: black;
+}
+.main-head{
+    display: flex;
+    
+}
+.main-head button{
+    padding: 1em 2em;
+    border: 1px solid #009879;
+    background-color: white;
+    color: #009879;
+    border-radius: 25px;
+    transition: .2s ease-in-out;
+    margin-left: auto;
+}
+.main-head button:active{
+    background-color: black;
+}
+.main-head button:hover{
+    background-color: #009879;
+    color: white;
+    cursor: pointer;
+}
+
+.tabledata{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 100%;
+    border-radius: 10px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.tabledata thead tr{
+    background: #009879 !important;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    margin: 1em;
+}
+.tabledata th{
+    padding: 25px 15px;
+}
+.tabledata td{
+    padding: 15px 15px;
+}
+.tabledata tbody tr{
+    border-bottom: 1px soild blue;
+
+}
+.tabledata tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.btn-main{
+    padding: 1em 2em;
+    background-color: #009879;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    transition: .2s ease-in-out;
+}
+.btn-main:hover{
+    transform: scale(1.2);
+    background-color:#19e6d4;
+    color:white ;
+    cursor: pointer;
+    
+}
+.btn-main:active{
+    background-color: black;
+}
+input{
+    display: flex;
+    padding: 1em;
+    width: 50vw;
+    border-radius: 20px;
+    background-color: rgb(243, 239, 239);
+    border: 1px solid #009879;
+    
+}
+input:hover{
+    cursor: pointer;
+}
+
+input:focus{
+    outline: none;
+}
