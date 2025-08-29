@@ -8,6 +8,9 @@ The application contains three main pages:
 + ### Main Page - List view with search functionality.
 + ### Detail Page - Displays detailed information for a selected item.
 
+  ## view live-preview
+  https://mock-pearl-one.vercel.app/
+
 ## Features
 
 - Phone Number Login with validation (required field, starts with country code).
