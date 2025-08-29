@@ -1,4 +1,4 @@
-.main-con{
+.main-con {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,12 +7,14 @@
     width: 80vw;
     color: black;
 }
-.main-head{
+
+.main-head {
     display: flex;
     justify-content: space-between;
-    
+
 }
-.main-head button{
+
+.main-head button {
     padding: 1em 2em;
     border: 1px solid #009879;
     background-color: white;
@@ -21,16 +23,18 @@
     transition: .2s ease-in-out;
     margin-left: auto;
 }
-.main-head button:active{
+
+.main-head button:active {
     background-color: black;
 }
-.main-head button:hover{
+
+.main-head button:hover {
     background-color: #009879;
     color: white;
     cursor: pointer;
 }
 
-.tabledata{
+.tabledata {
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9em;
@@ -40,58 +44,83 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
-.tabledata thead tr{
+.tabledata thead tr {
     background: #009879 !important;
     color: white;
     text-align: left;
     font-weight: bold;
     margin: 1em;
 }
-.tabledata th{
+
+.tabledata th {
     padding: 25px 15px;
 }
-.tabledata td{
+
+.tabledata td {
     padding: 15px 15px;
 }
-.tabledata tbody tr{
+
+.tabledata tbody tr {
     border-bottom: 1px soild blue;
 
 }
-.tabledata tbody tr:nth-of-type(even){
+
+.tabledata tbody tr:nth-of-type(even) {
     background-color: #f3f3f3;
 }
 
-.btn-main{
+.btn-main {
     padding: 1em 2em;
     background-color: #009879;
     color: white;
-    border-radius: 25px;
+    border-radius: 20px;
     border: none;
     transition: .2s ease-in-out;
 }
-.btn-main:hover{
+
+.btn-main:hover {
     transform: scale(1.2);
-    background-color:#19e6d4;
-    color:white ;
+    background-color: #19e6d4;
+    color: white;
     cursor: pointer;
-    
+
 }
-.btn-main:active{
+
+.btn-main:active {
     background-color: black;
 }
-input{
+
+input {
     display: flex;
     padding: 1em;
-    width: 50vw;
+    width: 60%;
     border-radius: 20px;
     background-color: rgb(243, 239, 239);
     border: 1px solid #009879;
-    
+
 }
-input:hover{
+
+input:hover {
     cursor: pointer;
 }
 
-input:focus{
+input:focus {
     outline: none;
+}
+
+
+@media(max-width :509px) {
+    .btn-main {
+        margin: 0;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .tabledata th {
+        padding: 20px 10px;
+    }
+
+    .tabledata td {
+        padding: 10px 10px;
+    }
 }

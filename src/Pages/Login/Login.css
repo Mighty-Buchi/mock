@@ -7,11 +7,21 @@
     border: none;
     transition: .2s ease-in;
 }
-.btn-login:hover{
+
+.btn-login:hover {
     color: white;
     background-color: #17ecc2;
     transform: scale(1.1);
 }
-.btn-login:active{
+
+.btn-login:active {
     background-color: black;
+}
+
+.phone-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
 }
