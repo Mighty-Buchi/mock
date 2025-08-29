@@ -14,7 +14,8 @@ The application contains three main pages:
 ## Features
 
 - Phone Number Login with validation (required field, starts with country code).
- <img width="465" height="186" alt="image" src="https://github.com/user-attachments/assets/c3584acc-c2b5-4928-8068-662183df7c20" />
+<img width="575" height="236" alt="image" src="https://github.com/user-attachments/assets/d8349280-95f3-40cd-8e3e-7fb47d72670f" />
+
 
 - API Integration using JSONPlaceholder
 - Searchable List View – dynamically filters items as the user types.
@@ -24,7 +25,8 @@ The application contains three main pages:
  <img width="715" height="551" alt="image" src="https://github.com/user-attachments/assets/a58646ef-7220-495b-85b5-0bc82f38f15c" />
 
 - Responsive Design using modern UI practices.
- <img width="383" height="324" alt="image" src="https://github.com/user-attachments/assets/e75abec7-6802-4931-bcb0-b32729f928c0" />
+  <img width="430" height="357" alt="image" src="https://github.com/user-attachments/assets/850fb4ce-7b6a-4e41-9c32-e17f260c9b24" />
+
 
 
 ## Tech Stack
