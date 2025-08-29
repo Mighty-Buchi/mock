@@ -1,3 +1,7 @@
+.div{
+    display: flex;
+    margin: 8px;
+}
 .main-con {
     display: flex;
     flex-direction: column;
@@ -11,6 +15,7 @@
 .main-head {
     display: flex;
     justify-content: space-between;
+
 
 }
 
@@ -122,5 +127,8 @@ input:focus {
 
     .tabledata td {
         padding: 10px 10px;
+    }
+    .main-con{
+        width: 100%;
     }
 }

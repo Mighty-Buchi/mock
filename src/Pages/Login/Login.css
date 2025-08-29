@@ -3,13 +3,14 @@
     padding: 0.7em 2.5em;
     font-size: 1em;
     background: #009879;
+    color: white;
     border-radius: 25px;
     border: none;
     transition: .2s ease-in;
 }
 
 .btn-login:hover {
-    color: white;
+    color: black;
     background-color: #17ecc2;
     transform: scale(1.1);
 }

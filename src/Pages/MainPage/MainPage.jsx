@@ -38,38 +38,40 @@ const MainPage = () => {
     }, [])
 
     return (
-        <div className='main-con'>
-            <div className='main-head'>
-                <input className='input' type="text" onChange={Filter} placeholder='Enter Firstname' />
-                <button onClick={handleLogout}>Logout</button>
+        <div className='div'>
+            <div className='main-con'>
+                <div className='main-head'>
+                    <input className='input' type="text" onChange={Filter} placeholder='Enter Firstname' />
+                    <button onClick={handleLogout}>Logout</button>
+                </div>
+                <table className='tabledata'>
+                    <thead>
+                        <tr >
+                            <th>ID</th>
+                            <th>FIRSTNAME</th>
+                            <th>LASTNAME</th>
+                            <th>DETAILS</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {loading ? (
+                            <tr>
+                                <td colSpan={3}>Loading...</td>
+                            </tr>
+                        ) : (records.map(user => (
+                            <tr key={user.id}>
+                                <td>{user.id}</td>
+                                <td>{user.firstName}</td>
+                                <td>{user.lastName}</td>
+                                <td><button className='btn-main' onClick={() => Details(user.id)}>view info</button></td>
+
+                            </tr>
+                        ))
+                        )}
+                    </tbody>
+                </table>
             </div>
-            <table className='tabledata'>
-                <thead>
-                    <tr >
-                        <th>ID</th>
-                        <th>FIRSTNAME</th>
-                        <th>LASTNAME</th>
-                        <th>DETAILS</th>
-
-                    </tr>
-                </thead>
-                <tbody>
-                    {loading ? (
-                        <tr>
-                            <td colSpan={3}>Loading...</td>
-                        </tr>
-                    ) : (records.map(user => (
-                        <tr key={user.id}>
-                            <td>{user.id}</td>
-                            <td>{user.firstName}</td>
-                            <td>{user.lastName}</td>
-                            <td><button className='btn-main' onClick={() => Details(user.id)}>view info</button></td>
-
-                        </tr>
-                    ))
-                    )}
-                </tbody>
-            </table>
         </div>
     )
 }
