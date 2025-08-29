@@ -8,7 +8,8 @@ The application contains three main pages:
 + ### Main Page - List view with search functionality.
 + ### Detail Page - Displays detailed information for a selected item.
 
-  ## view live-preview
+
+   ## view live-preview
   https://mock-pearl-one.vercel.app/
 
 ## Features
@@ -24,8 +25,9 @@ The application contains three main pages:
 - Detail Page with item-specific data and navigation back to the main list.
  <img width="715" height="551" alt="image" src="https://github.com/user-attachments/assets/a58646ef-7220-495b-85b5-0bc82f38f15c" />
 
-- Responsive Design using modern UI practices.
-  <img width="430" height="357" alt="image" src="https://github.com/user-attachments/assets/850fb4ce-7b6a-4e41-9c32-e17f260c9b24" />
+- Responsive Design using modern UI practices
+ <img width="430" height="357" alt="image" src="https://github.com/user-attachments/assets/850fb4ce-7b6a-4e41-9c32-e17f260c9b24" />
+
 
 
 
